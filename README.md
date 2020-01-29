@@ -11,10 +11,24 @@ react-nativi init Tharindu_Test
 git init
 git add
 git add README.md
+
+4.
 git commit -m "Freash React Native App"
 git remote add origin https://github.com/SachiyaTZ/Test.git
+
+5.
+react-native run android
+
+6.
 git commit -m "SignIn component"
+
+7.
 git commit -m "SignIn component UI"
+
+8.
 git commit -m "SignIn component validation"
 
 git push -u origin master
+
+9.
+keytool -genkeypair -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
