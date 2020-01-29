@@ -33,11 +33,9 @@ git push -u origin master
 9.
 keytool -genkeypair -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
 
-10.
 MYAPP_UPLOAD_STORE_FILE=my-upload-key.keystore
 MYAPP_UPLOAD_KEY_ALIAS=my-key-alias
 MYAPP_UPLOAD_STORE_PASSWORD=*****
 MYAPP_UPLOAD_KEY_PASSWORD=*****
 
-11.
 react-native run-android --variant=release
