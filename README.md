@@ -5,7 +5,7 @@ Test Ombio
 npm install -g react-native-cli
 
 2. 
-react-nativi init Tharindu_Test
+react-native init Tharindu_Test
 
 3.
 git init
